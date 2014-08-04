@@ -1,0 +1,12 @@
+@import "compass/css3";
+
+body {
+  background: mocassin;
+  padding: 1em 0;
+  margin: 0;
+  @include border-radius(10px);
+}
+.some {
+  text-decoration: none;
+  font-size: 18px;
+}
